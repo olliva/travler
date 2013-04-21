@@ -177,49 +177,56 @@ select{
 	border-left: 1px solid #d4d4d4;
 }
 .pageContainer .pageHeader .content .pageHeaderNavigation .navigationContainer > .navigationContainerPicture1 {
-	background: url("nav1.png");
+	background: url("icons.png");
+	background-position: 0px 0px;
 	height: 28px;
 	width: 26px;
 	margin: 0 auto;
 	margin-bottom: 5px;
 }
 .pageContainer .pageHeader .content .pageHeaderNavigation  ul li:hover .navigationContainer > .navigationContainerPicture1 {
-	background: url("nav1_colorised.png");
+	background: url("icons.png");
+	background-position: 0px -38px;
 
 }
 .pageContainer .pageHeader .content .pageHeaderNavigation  .navigationContainer > .navigationContainerPicture2 {
-	background: url("nav2.png");
+	background: url("icons.png");
+	background-position: 0px -76px;
 	height: 28px;
 	width: 26px;
 	margin: 0 auto;
 	margin-bottom: 5px;
 }
 .pageContainer .pageHeader .content .pageHeaderNavigation ul li:hover .navigationContainer > .navigationContainerPicture2 {
-	background: url("nav2_colorised.png");
+	background: url("icons.png");
+	background-position: 0px -114px;
 }
 .pageContainer .pageHeader .content .pageHeaderNavigation   .navigationContainer > .navigationContainerPicture3 {
-	background: url("nav3.png");
+	background: url("icons.png");
 	height: 26px;
 	width: 19px;
 	margin: 0 auto;
 	margin-bottom: 5px;
+	background-position: 0px -152px;
 }
 .pageContainer .pageHeader .content .pageHeaderNavigation  ul li:hover .navigationContainer > .navigationContainerPicture3 {
-	background: url("nav3_colorised.png");
+	background: url("icons.png");
+	background-position: 0px -188px;
 }
 .pageContainer .pageHeader .content .pageHeaderNavigation .navigationContainer > .navigationContainerPicture4 {
-	background: url("nav4.png");
+	background: url("icons.png");
+	background-position: 0px -224px;
 	height: 26px;
 	width: 18px;
 	margin: 0 auto;
 	margin-bottom: 5px;
 }
 .pageContainer .pageHeader .content .pageHeaderNavigation ul li:hover .navigationContainer > .navigationContainerPicture4 {
-	background: url("nav4_colorised.png");
+	background: url("icons.png");
+	background-position: 0px -260px;
 }
 .pageContainer .pageHeader .content .pageHeaderNavigation ul li .navigationBorder {
 	height: 6px;
-	background-color: black;
 	position: absolute;
 	width: 100%;
 	bottom: 0;
@@ -491,7 +498,7 @@ select{
 	display: inline-block;
 	margin-top: 35px;
 	padding: 0 20px;
-	font-size: 12px;
+	font-size: 13px;
 	border-right: 1px solid #767676;
 	position: relative;
 }
@@ -557,6 +564,40 @@ select{
 .pageContainer .footer .footerLinks ul.secondLine li:hover a {
 	color: #914dcf;
 }
+
+
+
+.pageContainer .footer .footerLinks ul.secondLine a{
+	padding-left: 16px;
+	background: url("icons.png") no-repeat;
+}
+.pageContainer .footer .footerLinks ul.secondLine .twitterIcon{
+	background-position: 0px -296px;
+}
+.pageContainer .footer .footerLinks ul.secondLine .twitterIcon:hover{
+	background-position: 0px -323px;
+}
+.pageContainer .footer .footerLinks ul.secondLine .facebookIcon{
+	background-position: 0px -350px;
+}
+.pageContainer .footer .footerLinks ul.secondLine .facebookIcon:hover{
+	background-position: 0px -378px;
+}
+.pageContainer .footer .footerLinks ul.secondLine .rssIcon{
+	background-position: 0px -406px;
+	padding-left: 18px;
+}
+.pageContainer .footer .footerLinks ul.secondLine .rssIcon:hover{
+	background-position: 0px -434px;
+}
+.pageContainer .footer .footerLinks ul.secondLine .mailIcon{
+	background-position: 0px -462px;
+	padding-left: 20px;
+}
+.pageContainer .footer .footerLinks ul.secondLine .mailIcon:hover{
+	background-position: 0px -490px;
+}
+
 
 
 
@@ -809,26 +850,22 @@ select{
 						</ul>
 						<ul type="none" class="secondLine">
 							<li>
-								<a href="http://twitter.com">
-									<img src="whiteTwitter.png">
+								<a href="http://twitter.com" class="twitterIcon" />
 									Twitter
 								</a>
 							</li>
 							<li>
-								<a href="http://facebook.com">
-									<img src="whiteFacebook.png">
+								<a href="http://facebook.com" class="facebookIcon" />
 									Facebook
 								</a>
 							</li>
 							<li>
-								<a href="http://www.rss.com">
-									<img src="whiteWaves.png">
+								<a href="http://www.rss.com" class="rssIcon" />
 									RSS
 								</a>
 							</li>
 							<li>
-								<a href="http://mail.ru">
-									<img src="whiteMail.png">
+								<a href="http://mail.ru" class="mailIcon">
 									Mail
 								</a>
 							</li>
