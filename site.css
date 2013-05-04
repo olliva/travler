@@ -561,6 +561,7 @@ select{
 .pageContainer .footer .footerLinks ul.secondLine a{
 	padding-left: 16px;
 	background: url("img/icons.png") no-repeat;
+	padding-top: 3px;
 }
 .pageContainer .footer .footerLinks ul.secondLine .twitterIcon{
 	background-position: 0px -296px;
